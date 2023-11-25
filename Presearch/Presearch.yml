@@ -9,7 +9,7 @@
         upgrade: yes
         update_cache: yes
     - name: install docker dependencies
-      apt:
+      
         name:
           - apt-transport-https
           - ca-certificates
